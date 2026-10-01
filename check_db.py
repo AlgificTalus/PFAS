@@ -18,5 +18,6 @@ print(f"Number of sites: {sites_count}")
 results_count = pd.read_sql("SELECT COUNT(*) FROM results", conn).iloc[0, 0]
 print(f"Number of results: {results_count}")
 
+
 # 6. Close the connection
 conn.close()    
